@@ -1,5 +1,6 @@
 # Exercício 0.4
 
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -27,9 +28,11 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: O navegador executa a função de callback que<br>renderiza as notas iniciais na página.
+```
 
 # Exercício 0.5
 
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -57,9 +60,11 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: O navegador executa a função de callback que<br>renderiza as notas iniciais na página.
+```
 
 # Exercício 0.6
 
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -79,3 +84,4 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: O JavaScript (spa.js) recebe a confirmação 201.<br>Ele atualiza a interface do usuário (DOM)<br>adicionando a nova nota à lista visível na página.<br>NENHUM RECARREGAMENTO DE PÁGINA OCORRE.
+```
